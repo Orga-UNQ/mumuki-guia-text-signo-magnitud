@@ -1,1 +1,0 @@
-Interpretar la cadena ```1111111`` en SM(8)

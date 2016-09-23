@@ -1,0 +1,1 @@
+En esta guía desarrollaremos el sistema de numeración Signo-Magnitug

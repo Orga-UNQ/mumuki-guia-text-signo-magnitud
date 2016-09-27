@@ -14,7 +14,7 @@ Necesitamos calcular cuál es el mínimo y máximo valor representable en este s
 |111| -3 |
 
 
-Con este desarrollo eshaustivo podemos encontrar fácilmente que el minimo es -3 y el máximo es 3.
+Con este desarrollo exhaustivo podemos encontrar fácilmente que el minimo es -3 y el máximo es 3.
 
 De manera general, vemos que el mínimo se construye con signo negativo y magnitud máxima, y que el máximo es el opuesto del primero. Es decir que el máximo es el valor absoluto del mínimo.
 

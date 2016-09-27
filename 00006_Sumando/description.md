@@ -22,6 +22,23 @@ Veamos cómo se aplica este algoritmo en cadenas del sistema Signo-Magnitud
 
 #### Un ejemplo con igual signo
 
-Por ejemplo, sumemos las cadenas ```0001 + 0110```. Al ser signos iguales se suman solamente las magnitudes: ```001 + 110=111```
+Por ejemplo, sumemos las cadenas ```0001 + 0110```. Al ser signos iguales se suman solamente las magnitudes: ```001 + 110=111```. Además se debe usar el mismo signo, entonces se obtiene: ```0111```
 
-# En construcción
+Veamos si lo que hicimos es correcto, interpretando operandos y resultado:
+
+* I(0001)=1
+* I(0110)=6
+* I(0111)=7
+
+
+#### Un ejemplo con diferente signo
+Por ejemplo, sumemos las cadenas ```1001 + 0110```. Como los signos son diferentes, se analiza por separado:
+
+* Signo: debe ser el de la mantisa con mayor magnitud. En este caso ```0110```
+* Magnitud: Es una resta entre magnitudes. En este caso: ```110-001=101```
+
+
+
+### Poniendo en práctica
+
+¿Cual es la cadena resultante de la suma ```0001 + 1110```?
